@@ -20,7 +20,7 @@ With Slidev, you can:
 
 You can view the presentation live at:
 
-[View the Slidev Presentation](https://jonmatum.github.io/serverless-first/)
+[View the Slidev Presentation](https://jonmatum.github.io/slidev-serverless-first/)
 
 ## How to Run and Edit Locally
 
