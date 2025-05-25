@@ -31,11 +31,11 @@ You can view the presentation live at:
    ```
 2. **Install dependencies**:
    ```bash
-   npm install
+   pnpm install
    ```
 3. **Run the Slidev presentation**:
    ```bash
-   npx slidev --open
+   pnpm run dev
    ```
 
 ## How to Use This as a Template
