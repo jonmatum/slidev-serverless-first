@@ -17,10 +17,6 @@ themeConfig:
   title="10 Reasons to Switch to a Serverless-First Architecture"
   subtitle="Ready to scale smarter, faster, and cheaper?"
   description="Discover how a Serverless-First approach can unlock flexibility, scalability, and innovation for your business."
-  :socialLinks="[
-    { url: 'https://github.com/jonmatum', icon: 'i-carbon-logo-github' },
-    { url: 'https://www.linkedin.com/in/jonatan-mata', icon: 'i-carbon-logo-linkedin' }
-  ]"
 />
 
 ---
@@ -28,7 +24,7 @@ themeConfig:
 <Card 
   number="1" 
   title="Effortless Scalability" 
-  image="./1.svg" 
+  image="/1.svg" 
   alt="Effortless Scalability">
 
 <ul>
@@ -43,7 +39,7 @@ themeConfig:
 <Card 
   number="2" 
   title="Pay-as-You-Go" 
-  image="./2.svg" 
+  image="/2.svg" 
   alt="Pay-as-You-Go">
 
 <ul>
@@ -57,7 +53,7 @@ themeConfig:
 <Card 
   number="3" 
   title="Focus on Code, Not Infrastructure" 
-  image="./3.svg" 
+  image="/3.svg" 
   alt="Focus on Code, Not Infrastructure">
 
 <ul>
@@ -71,7 +67,7 @@ themeConfig:
 <Card 
   number="4" 
   title="Faster Time to Market" 
-  image="./4.svg" 
+  image="/4.svg" 
   alt="Faster Time to Market">
 
 <ul>
@@ -85,7 +81,7 @@ themeConfig:
 <Card 
   number="5" 
   title="Built-In High Availability" 
-  image="./5.svg" 
+  image="/5.svg" 
   alt="Built-In High Availability">
 
 <ul>
@@ -98,7 +94,7 @@ themeConfig:
 <Card 
   number="6" 
   title="Simplified Operations" 
-  image="./6.svg" 
+  image="/6.svg" 
   alt="Simplified Operations">
 
 <ul>
@@ -112,7 +108,7 @@ themeConfig:
 <Card 
   number="7" 
   title="Event-Driven Power" 
-  image="./7.svg" 
+  image="/7.svg" 
   alt="Event-Driven Power">
 
 <ul>
@@ -125,7 +121,7 @@ themeConfig:
 <Card 
   number="8" 
   title="Enhanced Security" 
-  image="./8.svg" 
+  image="/8.svg" 
   alt="Enhanced Security">
 
 <ul>
@@ -138,7 +134,7 @@ themeConfig:
 <Card 
   number="9" 
   title="Environmentally Friendly" 
-  image="./9.svg" 
+  image="/9.svg" 
   alt="Environmentally Friendly">
 
 <ul>
@@ -151,7 +147,7 @@ themeConfig:
 <Card 
   number="10" 
   title="Future-Proof Your Apps" 
-  image="./10.svg" 
+  image="/10.svg" 
   alt="Future-Proof Your Apps">
 
 <ul>
@@ -160,24 +156,26 @@ themeConfig:
 </Card>
 
 ---
-class: bg-gradient-to-br from-green-500 to-emerald-700 text-white flex flex-col items-center justify-center min-h-screen p-8
+class: bg-gradient-to-br from-green-600 to-green-400 text-white flex flex-col justify-center items-center min-h-screen p-5 space-y-6
 transition: fade-out
 ---
 
 # Ready to Transform Your Future?
 
-<p class="text-2xl font-bold text-center max-w-3xl leading-snug animate-fade-in">
-  Embrace <span class="text-white font-extrabold">serverless-first</span> to scale seamlessly, reduce costs, and spark innovation.
+<p class="text-xl md:text-3xl font-bold text-center max-w-prose md:max-w-3xl leading-snug animate-fade-in">
+  Embrace <span class="font-extrabold">serverless-first</span> to scale seamlessly, reduce costs, and spark innovation.
 </p>
 
-<p class="text-lg text-center max-w-2xl leading-relaxed mt-4 animate-fade-in">
+<p class="text-base md:text-lg text-center max-w-prose md:max-w-2xl leading-relaxed animate-fade-in">
   Your future is <span class="underline font-semibold">cloud-native</span>.  
   Are you ready to lead?
 </p>
 
-<div class="flex flex-wrap justify-center gap-3 mt-6 animate-fade-in-up">
+<div class="flex flex-wrap justify-center gap-4 mt-6 animate-fade-in-up">
   <Tag label="Serverless" />
   <Tag label="Cloud" />
   <Tag label="Innovation" />
   <Tag label="CloudNative" />
 </div>
+
+

@@ -26,6 +26,9 @@
 
     </div>
   </div>
+<div class="fixed bottom-4 left-0 w-full text-center text-sm text-gray-500">
+  Created by <a href="https://jonmatum.dev" target="_blank" class="text-green-600 font-semibold">Jonatan Mata</a>
+</div>
 </template>
 
 <script setup>

@@ -21,15 +21,20 @@
 
     <!-- Social Icons -->
     <div class="fixed bottom-12 right-6 flex space-x-4 text-gray-600 text-3xl">
-      <a v-for="(link, index) in socialLinks" :key="index" :href="link.url" target="_blank"
-         class="hover:text-green-600 transition-colors duration-300">
-        <i :class="link.icon" />
+      <a href="https://github.com/jonmatum" target="_blank" class="hover:text-green-600 transition-colors duration-300">
+        <IconGithub class="text-3xl" />
+      </a>
+      <a href="https://www.linkedin.com/in/jonmatum" target="_blank" class="hover:text-green-600 transition-colors duration-300">
+        <IconLinkedin class="text-3xl" />
       </a>
     </div>
   </div>
 </template>
 
 <script setup>
+import IconGithub from '~icons/carbon/logo-github'
+import IconLinkedin from '~icons/carbon/logo-linkedin'
+
 defineProps({
   title: {
     type: String,
@@ -42,13 +47,6 @@ defineProps({
   description: {
     type: String,
     default: 'Discover how a Serverless-First approach can unlock flexibility, scalability, and innovation for your business.'
-  },
-  socialLinks: {
-    type: Array,
-    default: () => ([
-      { url: 'https://github.com/jonmatum', icon: 'i-carbon-logo-github' },
-      { url: 'https://www.linkedin.com/in/jonatan-mata', icon: 'i-carbon-logo-linkedin' }
-    ])
   }
 })
 </script>

@@ -9,11 +9,14 @@
     "deploy": "slidev build && gh-pages -d dist -b gh-pages"
   },
   "dependencies": {
+    "@iconify-json/carbon": "^1.2.8",
     "@slidev/cli": "^51.8.0",
     "@slidev/theme-apple-basic": "^0.25.1",
     "vue": "^3.5.14"
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "@slidev/types": "^51.8.0",
+    "gh-pages": "^6.3.0",
+    "unplugin-icons": "^22.1.0"
   }
 }
