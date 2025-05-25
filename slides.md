@@ -156,10 +156,8 @@ themeConfig:
 </Card>
 
 ---
-
 class: bg-gradient-to-br from-green-600 to-green-400 text-white flex flex-col justify-center items-center min-h-screen p-5 space-y-6
 transition: fade-out
-
 ---
 
 # Ready to Transform Your Future?
