@@ -24,7 +24,7 @@ themeConfig:
 <Card 
   number="1" 
   title="Effortless Scalability" 
-  image="/1.svg" 
+  image="https://jonmatum.github.io/slidev-serverless-first/1.svg" 
   alt="Effortless Scalability">
 
 <ul>
@@ -39,7 +39,7 @@ themeConfig:
 <Card 
   number="2" 
   title="Pay-as-You-Go" 
-  image="/2.svg" 
+  image="https://jonmatum.github.io/slidev-serverless-first/2.svg" 
   alt="Pay-as-You-Go">
 
 <ul>
@@ -53,7 +53,7 @@ themeConfig:
 <Card 
   number="3" 
   title="Focus on Code, Not Infrastructure" 
-  image="/3.svg" 
+  image="https://jonmatum.github.io/slidev-serverless-first/3.svg" 
   alt="Focus on Code, Not Infrastructure">
 
 <ul>
@@ -67,7 +67,7 @@ themeConfig:
 <Card 
   number="4" 
   title="Faster Time to Market" 
-  image="/4.svg" 
+  image="https://jonmatum.github.io/slidev-serverless-first/4.svg" 
   alt="Faster Time to Market">
 
 <ul>
@@ -81,7 +81,7 @@ themeConfig:
 <Card 
   number="5" 
   title="Built-In High Availability" 
-  image="/5.svg" 
+  image="https://jonmatum.github.io/slidev-serverless-first/5.svg" 
   alt="Built-In High Availability">
 
 <ul>
@@ -94,7 +94,7 @@ themeConfig:
 <Card 
   number="6" 
   title="Simplified Operations" 
-  image="/6.svg" 
+  image="https://jonmatum.github.io/slidev-serverless-first/6.svg" 
   alt="Simplified Operations">
 
 <ul>
@@ -108,7 +108,7 @@ themeConfig:
 <Card 
   number="7" 
   title="Event-Driven Power" 
-  image="/7.svg" 
+  image="https://jonmatum.github.io/slidev-serverless-first/7.svg" 
   alt="Event-Driven Power">
 
 <ul>
@@ -121,7 +121,7 @@ themeConfig:
 <Card 
   number="8" 
   title="Enhanced Security" 
-  image="/8.svg" 
+  image="https://jonmatum.github.io/slidev-serverless-first/8.svg" 
   alt="Enhanced Security">
 
 <ul>
@@ -134,7 +134,7 @@ themeConfig:
 <Card 
   number="9" 
   title="Environmentally Friendly" 
-  image="/9.svg" 
+  image="https://jonmatum.github.io/slidev-serverless-first/9.svg" 
   alt="Environmentally Friendly">
 
 <ul>
@@ -147,7 +147,7 @@ themeConfig:
 <Card 
   number="10" 
   title="Future-Proof Your Apps" 
-  image="/10.svg" 
+  image="https://jonmatum.github.io/slidev-serverless-first/10.svg" 
   alt="Future-Proof Your Apps">
 
 <ul>
@@ -156,8 +156,10 @@ themeConfig:
 </Card>
 
 ---
+
 class: bg-gradient-to-br from-green-600 to-green-400 text-white flex flex-col justify-center items-center min-h-screen p-5 space-y-6
 transition: fade-out
+
 ---
 
 # Ready to Transform Your Future?
@@ -177,5 +179,3 @@ transition: fade-out
   <Tag label="Innovation" />
   <Tag label="CloudNative" />
 </div>
-
-
