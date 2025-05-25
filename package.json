@@ -5,7 +5,8 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export",
+    "deploy": "slidev build && gh-pages -d dist -b gh-pages"
   },
   "dependencies": {
     "@slidev/cli": "^51.8.0",

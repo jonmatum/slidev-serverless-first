@@ -164,10 +164,6 @@ class: bg-gradient-to-br from-green-500 to-emerald-700 text-white flex flex-col 
 transition: fade-out
 ---
 
-<div class="text-7xl mb-6 animate-fade-in-down">
-  <i-carbon-rocket />
-</div>
-
 # Ready to Transform Your Future?
 
 <p class="text-2xl font-bold text-center max-w-3xl leading-snug animate-fade-in">
