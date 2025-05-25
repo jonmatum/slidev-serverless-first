@@ -20,15 +20,13 @@ With Slidev, you can:
 
 You can view the presentation live at:
 
-[View the Slidev Presentation](https://yourusername.github.io/serverless-first/)
-
-Replace `yourusername` with your GitHub username.
+[View the Slidev Presentation](https://jonmatum.github.io/serverless-first/)
 
 ## How to Run and Edit Locally
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/yourusername/serverless-first.git
+   git clone https://github.com/jonmatum/serverless-first.git
    cd serverless-first
    ```
 2. **Install dependencies**:
